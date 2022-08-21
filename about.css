@@ -112,7 +112,7 @@ h2 {
   line-height: 30px;
   margin-bottom:0.4em;
   -webkit-font-smoothing: antialiased;
-  font-weight:normal;
+  font-weight:300;
 }
 
 h3 { 
@@ -120,7 +120,7 @@ h3 {
   line-height: 36px;
   margin-bottom:0.6em;
   -webkit-font-smoothing: antialiased;
-  font-weight:normal;
+  font-weight:300;
   width:80%;
 }
 
@@ -177,7 +177,7 @@ p, ul {
   width: 100%;
   text-transform:none;
   line-height: 120%;
-  font-weight: bold;
+  font-weight: 300;
 }
 .pub ul {
   list-style-type: none;
