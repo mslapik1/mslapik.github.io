@@ -74,8 +74,8 @@ table {
 
 @font-face {
     font-family: 'Roboto', sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: Thin;
+    font-style: Thin;
 }
 
 
@@ -505,7 +505,7 @@ z-index:100;
   width: 100%;
   text-transform:none;
   line-height: 120%;
-  font-weight: bold;
+  font-weight: 300;
 }
 .pub ul {
   list-style-type: none;
@@ -594,7 +594,7 @@ div .pub-full {
   font-size:18px;
   width: 100%;
   line-height: 120%;
-  font-weight: bold;
+  font-weight: 300;
   text-transform: none;
 }
 
@@ -633,12 +633,12 @@ div .pub-full {
 
 .post h1 h2 h3 {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 300;
 }
 
 .post h4 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 300;
   margin-bottom: 10px;
 }
 
@@ -662,7 +662,7 @@ div .pub-full {
 
 .post .footnote {
   font-size:8pt;
-  font-weight:bold;
+  font-weight:300;
 }
 
 
@@ -725,13 +725,13 @@ div .pub-full {
 
 .tdate {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: -5px;
-  color: rgb(132,0,0);
+  color: rgb(0,0,105);
 }
 .ttitle {
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
 }
 .tdesc {
   font-size: 15px;
