@@ -162,7 +162,7 @@ body {
 
 h1 { 
   font-family: 'Roboto', sans-serif;
-  font-size: 70px;
+  font-size: 32px;
   font-weight: 300;
   line-height: 74px;
   letter-spacing:-3px;
@@ -181,7 +181,7 @@ h2 {
 }
 
 h3 { 
-  font-size: 36px;
+  font-size: 32px;
   line-height: 36px;
   margin-bottom:0.6em;
   -webkit-font-smoothing: antialiased;
@@ -203,7 +203,7 @@ p, ul {
 }
 
 .standfirst {
-  font-size: 25px;
+  font-size: 20px;
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 0px;
@@ -213,7 +213,7 @@ p, ul {
 }
 
 .intro {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 21px;
   -webkit-font-smoothing: antialiased;
   padding: 0px;
