@@ -171,10 +171,10 @@ p, ul {
 
 /* publication list */
 .pub {
-  font-size:large;
+  font-size:22;
 }
 .pub h3 {
-  font-size:large;
+  font-size:18;
   width: 100%;
   text-transform:none;
   line-height: 120%;
