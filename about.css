@@ -97,7 +97,7 @@ body {
 
 h1 { 
   /*font-family: 'Roboto', sans-serif;*/
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 74px;
   letter-spacing:-3px;
@@ -140,7 +140,7 @@ p, ul {
 }
 
 .standfirst {
-  font-size: 21px;
+  font-size: 70px;
   line-height: 26px;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 0px;
