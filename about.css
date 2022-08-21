@@ -172,7 +172,7 @@ p, ul {
 
 /* publication list */
 .pub {
-  font-size:20;
+  font-size:15;
 }
 .pub h3 {
   font-size:20;
@@ -261,7 +261,7 @@ div .pub-info {
 
 
 #timeline {
-  font-size: 20;
+  font-size: 15;
   font-weight: 300;
 }
 @media (min-width: 768px) {
@@ -316,17 +316,17 @@ div .pub-info {
 }
 
 .tdate {
-  font-size: 25;
+  font-size: 15;
   font-weight: 300;
   margin-bottom: 0px;
   color: rgb(65,105,225);
 }
 .ttitle {
-  font-size: 35;
+  font-size: 15;
   font-weight: 300;
 }
 .tdesc {
-  font-size: 20;
+  font-size: 15;
   font-weight: 300;
 }
 @media (max-width: 768px) {
