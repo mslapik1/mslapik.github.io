@@ -334,34 +334,47 @@ div .pub-info {
   .timelineitem:before {
     left: -8px;
   }
-  #container h4{ margin-top:-30px;}
-  .mblmdl { width:100% !important; margin-left: 41% !important; }
+
   
+   .mblmdl {
+  
+  text-align: center !important;
+  
+  margin:0 auto !important;
+  
+}
+    
 }
 
 .tdate {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   margin-bottom: 0px;
+  line-height:26px;
   color: rgb(52, 102, 170);
 }
 .ttitle {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
+  line-height:26px;
 }
 .tdesc {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
+  line-height:26px;
 }
 @media (max-width: 768px) {
   .tdate {
-    font-size: 20px;
+    font-size: 22px;
+	line-height:28px;
   }
   .ttitle {
-    font-size: 20px;
+    font-size: 22px;
+	line-height:28px;
   }
   .tdesc {
-    font-size: 20px;
+    font-size: 22px;
+	line-height:28px;
   }
   
   .onlyMble{ display:block; padding-bottom:20px; margin-left:41% !important; padding-top:5px; }
