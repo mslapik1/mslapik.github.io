@@ -350,6 +350,7 @@ div .pub-info {
 		  margin-top:-50px !important;
 		  
 		}
+		center{padding-top:10px !important;}
     
 	}
 
@@ -388,7 +389,7 @@ div .pub-info {
 		  .onlyMble{ display:block; padding-bottom:20px; padding-top:5px; padding-left:31% }
 		  
 		 
-		  header > nav.group, body footer { width: 100%; text-align:center !important;color:#3466aa; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:25px;}
+		  header > nav.group, body footer { width: 100%; text-align:left !important;color:#000000; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:25px;}
 	
 		  
 		  .pub-image{display:none;}
