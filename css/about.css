@@ -310,7 +310,7 @@ div .pub-info {
 			right: -8px;
 		  }
 		  
-		  
+		  .hash{text-align: center !important;} 
 		  
 		
 	}
@@ -388,8 +388,8 @@ div .pub-info {
 		  .onlyMble{ display:block; padding-bottom:20px; padding-top:5px; padding-left:31% }
 		  
 		 
-		  
-		  
+		  header > nav.group, body footer { width: 100%; text-align:center !important;color:#3466aa; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:25px;}
+	
 		  
 		  .pub-image{display:none;}
 		  
