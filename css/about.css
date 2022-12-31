@@ -271,7 +271,8 @@ div .pub-info {
 
 
 #timeline {
-  font-size: 18;
+  font-size: 20
+	  ;
   font-weight: 300;
 }
 @media (min-width: 768px) 
@@ -281,7 +282,7 @@ div .pub-info {
 			margin-left: 50%;
 			border-left: 5px solid #333;
 			text-align: left;
-			 line-height:18px;
+			 line-height:20px;
 			 font-family: 'Open Sans', sans-serif;
 		  }
 		  
@@ -293,14 +294,14 @@ div .pub-info {
 			margin-left: 5px;
 			border-right: 5px solid #333;
 			text-align: right;
-			 line-height:18px;
+			 line-height:20px;
 			 font-family: 'Open Sans', sans-serif;
 		  }
 		  .timelineitem {
 			width: 50%;
 			position: relative;
 			padding: 0px 10px 0px 10px;
-			 line-height:18px;
+			 line-height:20px;
 			 font-family: 'Open Sans', sans-serif;
 		  }
 		  .timelineitem:nth-child(odd):before {
