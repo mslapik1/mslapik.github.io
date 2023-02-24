@@ -387,7 +387,7 @@ div .pub-info {
 			line-height:28px;
 		  }
 		  
-		  .onlyMble{ display:block; padding-bottom:20px; padding-top:5px; padding-left:31% }
+		  .onlyMble{ display:block; padding-bottom:20px; padding-top:5px; padding-left:31%;margin-top: 30px!important; }
 		  
 		 
 		  header > nav.group, body footer { width: 100%; text-align:left !important;color:#000000; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:25px;}
@@ -426,4 +426,15 @@ div .pub-info {
   font-style: normal;
   font-weight: 300;
   padding: 90px 0 50px;
+}
+
+@media (min-width: 1024px){
+    .tweets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .tweets .twitter-tweet.twitter-tweet-rendered {
+        margin-top: 30px!important;
+    }
 }
