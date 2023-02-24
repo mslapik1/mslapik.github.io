@@ -428,7 +428,7 @@ div .pub-info {
   padding: 90px 0 50px;
 }
 
-@media (max-width: 850px; min-width: 1024px){
+@media (min-width: 1024px){
     .tweets {
         display: flex;
         flex-wrap: wrap;
