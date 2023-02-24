@@ -428,11 +428,11 @@ div .pub-info {
   padding: 90px 0 50px;
 }
 
-@media (min-width: 1024px){
+@media (min-width: 850px){
     .tweets {
         display: flex;
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: space-between;
     }
     .tweets .twitter-tweet.twitter-tweet-rendered {
         margin-top: 30px!important;
