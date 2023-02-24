@@ -432,9 +432,10 @@ div .pub-info {
     .tweets {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+/*        justify-content: space-between;*/
     }
     .tweets .twitter-tweet.twitter-tweet-rendered {
         margin-top: 30px!important;
+      margin-right: 60px!important;
     }
 }
