@@ -155,8 +155,8 @@ p, ul {
   display:table-cell;
   vertical-align:top;
   width: 175px;
-  padding: 30px;
-  margin-right:10px;
+  padding: 10px;
+  margin-right:30px;
 }
 
 /* Layout */
