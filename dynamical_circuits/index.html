@@ -17,8 +17,14 @@
         header {
             text-align: center;
             padding: 20px;
-            background-color: #333;
-            color: #fff;
+            background-color: #fff; /* White header background */
+            color: #000; /* Black header text color */
+            border-top: 1px solid #000; /* Top border */
+            border-bottom: 1px solid #000; /* Bottom border */
+        }
+
+        h1 {
+            font-weight: normal; /* Remove bold from the header */
         }
 
         main {
@@ -43,6 +49,7 @@
         .caption {
             text-align: center;
             margin-top: 10px;
+            max-width: 500px; /* Set max width for captions */
         }
 
         @media (max-width: 600px) {
@@ -59,11 +66,10 @@
 <body>
 
     <header>
-        <h1>Dynamical Systems, Attractors, and Neural Circuits</h1>
+        <h1><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930057/" target="_blank" style="color: #000; text-decoration: none;">Dynamical Systems, Attractors, and Neural Circuits</a></h1>
         <p>by <a href="https://scholarworks.brandeis.edu/esploro/profile/paul_miller/overview?institution=01BRAND_INST" target="_blank">Paul Miller</a>, visuals by <a href="https://mitchellslapik.github.io/" target="_blank">Mitchell Slapik</a></p>
     </header>
 
-    <main>
         <div class="column">
             <img src="single_point_attractor.gif" alt="Figure 1">
             <p class="caption">Figure 1: single point attractor. Here we have a simple neural circuit that always gravitates back to a single, stable point. By injecting current into neuron 1, we can shift the location of this stable point.</p>
