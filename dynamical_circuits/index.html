@@ -17,14 +17,8 @@
         header {
             text-align: center;
             padding: 20px;
-            background-color: #fff; /* White header background */
-            color: #000; /* Black header text color */
-            border-top: 1px solid #000; /* Top border */
-            border-bottom: 1px solid #000; /* Bottom border */
-        }
-
-        h1 {
-            font-weight: normal; /* Remove bold from the header */
+            background-color: #333;
+            color: #fff;
         }
 
         main {
@@ -49,7 +43,6 @@
         .caption {
             text-align: center;
             margin-top: 10px;
-            max-width: 500px; /* Set max width for captions */
         }
 
         @media (max-width: 600px) {
@@ -66,22 +59,22 @@
 <body>
 
     <header>
-        <h1><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4930057/" target="_blank" style="color: #000; text-decoration: none;">Dynamical Systems, Attractors, and Neural Circuits</a></h1>
+        <h1>Dynamical Systems, Attractors, and Neural Circuits</h1>
         <p>by <a href="https://scholarworks.brandeis.edu/esploro/profile/paul_miller/overview?institution=01BRAND_INST" target="_blank">Paul Miller</a>, visuals by <a href="https://mitchellslapik.github.io/" target="_blank">Mitchell Slapik</a></p>
     </header>
 
+    <main>
         <div class="column">
             <img src="single_point_attractor.gif" alt="Figure 1">
             <p class="caption">Figure 1: single point attractor. Here we have a simple neural circuit that always gravitates back to a single, stable point. By injecting current into neuron 1, we can shift the location of this stable point.</p>
-             <img src="multistable_attractor.gif" alt="Figure 3">
+            <img src="multistable_attractor.gif" alt="Figure 3">
             <p class="caption">Figure 3: Here, inhibiting neuron 2 paradoxically increases its firing rate. When we electrically inhibit neuron 2, this disinhibits neuron 1, which in turn excites neuron 2. This example shows how confusing responses at the single neuron level can make sense at the population level.</p>
-             <img src="line_attractor.gif" alt="Figure 5">
+            <img src="line_attractor.gif" alt="Figure 5">
             <p class="caption">Figure 5: line attractor. This circuit has a continuous line of stable points. By injecting current, we can shift the firing rates along this line. Line attractors are perfect for tracking continuous variables like direction or accumulating evidence over time.</p>
             <img src="two_oscillators.gif" alt="Figure 7">
             <p class="caption">Figure 7: two oscillators. This circuit can produce two different oscillations, one fast and one slow. By injecting current, we can get it to switch from one oscillation to the other.</p>
             <img src="heteroclinic_orbit.gif" alt="Figure 9">
             <p class="caption">Figure 9: Dynamical system 9: heteroclinic orbit. Heteroclinic orbits pass through multiple semi-stable states without fully coming to rest. They may create sequences that underlie memories and decision making.</p>
-       
         </div>
         <div class="column">
             <img src="multistable_attractor.gif" alt="Figure 2">
@@ -92,11 +85,7 @@
             <p class="caption">Figure 6: Dynamical system 6: oscillator. This circuit naturally oscillates back and forth. By electrically inhibiting neuron 1, we can kill the oscillation and inactivate both neurons. Oscillators are fundamental to generating movements and may underlie many other operations in the brain.</p>
             <img src="chaotic_system.gif" alt="Figure 8">
             <p class="caption">Figure 8: Dynamical system 8: chaotic system. Here, neurons 1 and 2 spiral outward. At a certain threshold, neuron 3 turns on and kills the oscillation, restarting the spiral. Chaotic dynamics like this may characterize your brain as it is still learning a new task.</p>
-      
         </div>
-
-
     </main>
-
 </body>
 </html>
