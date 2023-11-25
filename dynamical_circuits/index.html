@@ -3,62 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIF Gallery</title>
+    <title>Dynamical Systems, Attractors, and Neural Circuits</title>
     <style>
         body {
-            font-family: Open Sans, sans-serif;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #fff;
+            color: #000;
             margin: 0;
             padding: 0;
-            background-color: #ffffff;
+            box-sizing: border-box;
         }
 
         header {
-            font-family: Open Sans, sans-serif;
-            background-color:  #ffffff;
             text-align: center;
             padding: 20px;
+            background-color: #333;
+            color: #fff;
         }
 
-        .gallery {
+        main {
             display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
+            justify-content: space-between;
             padding: 20px;
         }
 
         .column {
-            flex: 48%;
-            margin-bottom: 20px;
+            flex: 1;
+            margin: 0 10px;
+            text-align: center;
         }
 
         img {
-            width: 100%;
+            max-width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 0 auto;
         }
 
         .caption {
             text-align: center;
             margin-top: 10px;
         }
+
+        @media (max-width: 600px) {
+            main {
+                flex-direction: column;
+            }
+
+            .column {
+                margin: 0;
+            }
+        }
     </style>
 </head>
 <body>
+
     <header>
-        <h1>GIF Gallery</h1>
+        <h1>Dynamical Systems, Attractors, and Neural Circuits</h1>
+        <p>by <a href="https://scholarworks.brandeis.edu/esploro/profile/paul_miller/overview?institution=01BRAND_INST" target="_blank">Paul Miller</a>, visuals by <a href="https://mitchellslapik.github.io/" target="_blank">Mitchell Slapik</a></p>
     </header>
 
-    <div class="gallery">
+    <main>
         <div class="column">
-            <img src="line_attractor.gif" alt="GIF 1">
-            <div class="caption">Caption for GIF 1</div>
+            <img src="your-gif-url1.gif" alt="Caption 1">
+            <p class="caption">Caption 1</p>
         </div>
         <div class="column">
-            <img src="oscillator.gif" alt="GIF 2">
-            <div class="caption">Caption for GIF 2</div>
+            <img src="your-gif-url2.gif" alt="Caption 2">
+            <p class="caption">Caption 2</p>
         </div>
-        <!-- Add more columns as needed -->
-    </div>
+    </main>
+
 </body>
 </html>
