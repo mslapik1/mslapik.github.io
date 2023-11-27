@@ -98,6 +98,10 @@ body {
   
 }
 
+a {
+  text-decoration: none; /* Add this line to remove underline from links */
+}
+
 h1 { 
   /*font-family: 'Roboto', sans-serif;*/
   font-size: 35px;
