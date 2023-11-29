@@ -45,8 +45,9 @@ font-family: 'Open Sans', sans-serif;
   font-family: 'Open Sans', sans-serif;
 }
 
-a{text-deccoration:none;}
-
+a {
+  text-decoration: none;
+}
 ol, ul {
   list-style: none;
 }
