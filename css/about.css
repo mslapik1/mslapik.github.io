@@ -378,22 +378,22 @@ div .pub-info {
 @media (max-width: 768px) 
 	{
 		  .tdate {
-			font-size: 22px;
+			font-size: 20px;
 			line-height:28px;
 		  }
 		  .ttitle {
-			font-size: 22px;
+			font-size: 20px;
 			line-height:28px;
 		  }
 		  .tdesc {
-			font-size: 22px;
+			font-size: 20px;
 			line-height:28px;
 		  }
 		  
 		  .onlyMble{ display:block; padding-bottom:20px; padding-top:5px; padding-left:31%;padding-top: 30px!important; }
 		  
       .pub li img{padding-top: 30px!important;}
-		  header > nav.group, body footer { width: 100%; text-align:left !important;color:#000000; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:25px;}
+		  header > nav.group, body footer { width: 100%; text-align:left !important;color:#000000; font-weight:400; font-family: 'Open Sans', sans-serif; font-size:20px;}
 	
 		  
 		  .pub-image{display:none;}
@@ -414,7 +414,7 @@ div .pub-info {
 		}
 
 		.pub {
-		  font-size: 22px !important;
+		  font-size: 20px !important;
 		  line-height:150% !important;
 			
 		}
