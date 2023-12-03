@@ -363,12 +363,13 @@ div .pub-info {
   font-weight: 300;
   margin-bottom: 0px;
   line-height:26px;
-  color: rgb(52, 102, 170);
+  color:black;
 }
 .ttitle {
   font-size: 20px;
   font-weight: 300;
   line-height:26px;
+color: rgb(52, 102, 170);
 }
 .tdesc {
   font-size: 20px;
