@@ -40,14 +40,16 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-  line-height: 150%;
+  line-height: 125%;
 font-family: 'Open Sans', sans-serif;
   font-weight: 300 !important;
   background-color:#FFF !important;
   font-family: 'Open Sans', sans-serif;
-	max-width: 800px; /* Adjust this value as needed */
+max-width: 800px; /* Adjust this value as needed */
     margin-left: auto;
     margin-right: auto;
+text-align: justify;
+  text-justify: inter-word;
 }
 
 a{text-decoration: none;}
