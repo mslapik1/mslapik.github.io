@@ -304,6 +304,14 @@ p, ul {
     margin: 0 auto; /* Center the image within the container */
   }
 
+  .name-and-title {
+    text-align: center;
+  }
+
+  .name-and-title h4 {
+    margin-bottom: 10px;
+  }
+
   center {
     padding-top: 10px !important;
   }
