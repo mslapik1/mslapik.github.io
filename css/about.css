@@ -294,6 +294,16 @@ p, ul {
     margin-top: -50px !important;
   }
 
+  .headshot {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    text-align: center; /* Center the image horizontally */
+  }
+
+  .headshot img {
+    margin: 0 auto; /* Center the image within the container */
+  }
+
   center {
     padding-top: 10px !important;
   }
@@ -313,10 +323,6 @@ p, ul {
   }
 
   .pub-image {
-    display: none;
-  }
-
-  .headshot {
     display: none;
   }
 
