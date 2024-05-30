@@ -76,7 +76,7 @@ body {
   line-height: 24px;
 }
 
-h1 {
+h1, h4 {
   font-size: 35px;
   font-weight: 300;
   line-height: 74px;
@@ -121,11 +121,8 @@ p, ul {
 }
 
 .headshot {
-  display: table-cell;
-  vertical-align: top;
-  max-width: 225px;
-  padding: 10px;
-  margin-right: 10px;
+  max-width: 250px;
+  margin: 0 auto 20px;
 }
 
 #container {
@@ -139,6 +136,18 @@ p, ul {
 
 #container h4 {
   margin-bottom: -30px;
+}
+
+/* Profile info */
+.profile-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.profile-info .details {
+  margin-top: 20px;
 }
 
 /* Publication list styles */
@@ -288,10 +297,7 @@ p, ul {
     left: -8px;
   }
 
-  .mblmdl {
-    text-align: center !important;
-    margin: 0 auto !important;
-    margin-top: -50px !important;
+  .profile-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -307,10 +313,9 @@ p, ul {
     margin: 0 auto; /* Center the image within the container */
   }
 
-  .mblmdl > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .profile-info .details {
+    margin-top: 20px;
+    text-align: center;
   }
 
   center {
