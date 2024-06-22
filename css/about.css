@@ -410,7 +410,7 @@ color: rgb(52, 102, 170);
 		  .pub-image{display:none;}
 		  
 		  .headshot{ display:none;}
-		.mblview{ display:block;}
+		.mblview{ display:block;margin-left: 0px !important;}
 
 		  
 		  .standfirst h2{
