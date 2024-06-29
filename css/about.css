@@ -313,7 +313,7 @@ p, ul {
   }
 
   .timelineitem:before {
-    left: -8px;
+    left: -5px; /* Adjust this value to center the dot */
   }
 
   .mblmdl {
