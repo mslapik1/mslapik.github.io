@@ -346,23 +346,14 @@
       }
     }
 
-    function closeMenu() {
-      var menu = document.getElementById('dropdownMenu');
-      menu.style.maxHeight = null;
-      menu.classList.remove('open');
-    }
-
     function scrollToSection(id) {
       var menuHeight = document.querySelector('.menu').offsetHeight;
-      closeMenu();
-      setTimeout(() => {
-        const element = document.querySelector(id);
-        const offset = element.getBoundingClientRect().top + window.scrollY - menuHeight;
-        window.scrollTo({
-          top: offset,
-          behavior: 'smooth'
-        });
-      }, 0); // Set delay to 0 for immediate closing
+      const element = document.querySelector(id);
+      const offset = element.getBoundingClientRect().top + window.scrollY - menuHeight;
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth'
+      });
     }
   </script>
 </body>
