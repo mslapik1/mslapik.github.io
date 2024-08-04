@@ -142,10 +142,10 @@
       <a href="#music">Music</a>
     </div>
     <div class="dropdown-menu" id="dropdownMenu">
-      <a href="#intro" onclick="closeMenu()">Intro</a>
-      <a href="#publications" onclick="closeMenu()">Publications</a>
-      <a href="#visualizations" onclick="closeMenu()">Visualizations</a>
-      <a href="#music" onclick="closeMenu()">Music</a>
+      <a href="#intro" onclick="scrollToSection('#intro')">Intro</a>
+      <a href="#publications" onclick="scrollToSection('#publications')">Publications</a>
+      <a href="#visualizations" onclick="scrollToSection('#visualizations')">Visualizations</a>
+      <a href="#music" onclick="scrollToSection('#music')">Music</a>
     </div>
   </header>
 
@@ -352,16 +352,14 @@
       setTimeout(() => menu.classList.remove('open'), 500); // Wait for the animation to complete before removing the class
     }
 
-    // Custom smooth scroll for mobile
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
+    function scrollToSection(id) {
+      closeMenu();
+      setTimeout(() => {
+        document.querySelector(id).scrollIntoView({
           behavior: 'smooth'
         });
-      });
-    });
+      }, 500); // Adjust this delay as needed
+    }
   </script>
 </body>
 </html>
